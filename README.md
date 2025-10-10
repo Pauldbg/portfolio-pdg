@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Paul Dubois Gance
 
-## Getting Started
+Portfolio personnel de développeur full stack et juriste en droit du numérique.
 
-First, run the development server:
+🌐 **[Voir le site en ligne](https://portfolio-pdg.vercel.app)**
+
+## Stack Technique
+
+- **Framework** : Next.js 15.5 (App Router)
+- **Langage** : TypeScript (strict mode)
+- **Styling** : Tailwind CSS v4
+- **Déploiement** : Vercel
+- **Package Manager** : PNPM
+
+## Développement Local
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Installation des dépendances
+pnpm install
+
+# Lancer le serveur de développement
 pnpm dev
-# or
-bun dev
+
+# Build de production
+pnpm build
+
+# Lancer le serveur de production
+pnpm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Structure du Projet
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+app/              # Routes Next.js (App Router)
+src/
+├── components/   # Composants réutilisables
+├── features/     # Fonctionnalités métier (portfolio, navigation, about)
+├── hooks/        # Custom React hooks
+└── types/        # Types TypeScript
+public/           # Assets statiques (images, SVG)
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Projets Présentés
 
-## Learn More
+- **Application Contraception** - App médicale CHRU Nancy (Next.js, TypeScript, Prisma)
+- **Bretstad Art** - Site WordPress avec animations SVG
+- **Cabinet HDV** - Site vitrine kinésithérapie
+- **GSAP Animations** - Expérimentations animations web (coming soon)
+- **Three.js Projects** - Projets 3D WebGL (coming soon)
+- **Cybersecurity** - Projets de cybersécurité (coming soon)
 
-To learn more about Next.js, take a look at the following resources:
+## Licence
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2025 Paul Dubois Gance. Tous droits réservés.
