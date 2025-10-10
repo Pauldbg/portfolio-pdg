@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Header } from "@/features/layout/Header";
+import { TailwindIndicator } from "@/components/utils/TailwindIndicator";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,7 +16,9 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className="antialiased">
+        <Header />
         {children}
+        <TailwindIndicator />
       </body>
     </html>
   );
