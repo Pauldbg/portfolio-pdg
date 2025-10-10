@@ -78,7 +78,6 @@ public/               # Assets statiques
 
 - **Style**: Minimaliste, épuré, inspiré de [gregoire-borach.com](https://www.gregoire-borach.com)
 - **Typographie**: Courier New (monospace système) pour tout le texte
-- **Logo**: "PAUL DUBOIS GANCE" sera un fichier image (SVG/PNG) à placer dans `/public/images/`
 - **Palette**: Noir/blanc/gris (simple et épuré)
 - **Pas de dark mode** pour l'instant
 
