@@ -12,12 +12,10 @@ export const MenuOverlay = ({ items, onClose }: MenuOverlayProps) => {
   return (
     <div
       className="fixed inset-0 z-40 flex items-center justify-center"
-      style={{
-        backgroundColor: "rgba(255, 255, 255, 0.05)",
-        backdropFilter: "blur(3px)",
-        WebkitBackdropFilter: "blur(3px)",
-      }}
       onClick={onClose}
+      style={{
+        mixBlendMode: "difference",
+      }}
     >
       <nav
         className="w-full max-w-md mx-auto"
@@ -29,7 +27,7 @@ export const MenuOverlay = ({ items, onClose }: MenuOverlayProps) => {
               <Link
                 href={item.link}
                 onClick={onClose}
-                className="text-black text-4xl md:text-6xl font-bold tracking-tight hover:text-gray-700 border-b-4 border-black pb-2 inline-block transition-colors"
+                className="text-white text-3xl md:text-4xl font-bold tracking-tight border-b-4 border-white pb-2 inline-block transition-colors"
               >
                 {item.label}
               </Link>

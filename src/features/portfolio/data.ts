@@ -46,7 +46,7 @@ export const projects: Project[] = [
     description: "Expérimentations 3D avec Three.js et WebGL",
     image: "/images/projects/three-js/main.webp",
     link: "/projects/three-js",
-    tags: ["🔸Coming soon", "Three.js", "3D", "WebGL"],
+    tags: ["🔸 Coming soon", "Three.js", "3D", "WebGL"],
     year: "2025",
   },
   {
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     description: "Expérimentations de cybersécurité avec Next.js et TypeScript",
     image: "/images/projects/cybersecurity/main.webp",
     link: "https://github.com/Pauldbg",
-    tags: ["🔸Coming soon", "Next.js", "TypeScript", "Cybersec"],
+    tags: ["🔸 Coming soon", "Next.js", "TypeScript", "Cybersec"],
     year: "2025",
   },
 ];

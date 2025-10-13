@@ -27,9 +27,14 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
         />
 
         {/* Overlay avec informations au hover */}
-        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/70 transition-all duration-300 flex items-end p-6 opacity-0 group-hover:opacity-100">
+        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/70 transition-all duration-300 flex flex-col justify-between p-6 opacity-0 group-hover:opacity-100">
+          {/* Titre en haut */}
+          <div className="text-white transform -translate-y-4 group-hover:translate-y-0 transition-transform duration-300 pt-4">
+            <h3 className="text-2xl font-bold">{project.title}</h3>
+          </div>
+
+          {/* Reste des infos en bas */}
           <div className="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-            <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
             <p className="text-sm text-gray-300 mb-3">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-2">
               {project.tags.map((tag) => (
