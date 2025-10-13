@@ -1,6 +1,6 @@
 export function AboutContent() {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row pt-24 md:pt-35">
+    <div className="min-h-screen flex flex-col md:flex-row pt-24 md:pt-36">
       {/* Colonne gauche - Fond noir */}
       <div className="w-full md:w-1/2 bg-black text-white p-8 md:p-12 lg:p-16">
         <div className="max-w-xl">
@@ -33,38 +33,43 @@ export function AboutContent() {
           {/* Bio en français */}
           <div className="mb-12 space-y-4 font-bold">
             <p>
-              Développeur full stack et juriste en
-              droit du numérique basé à Paris.
+            Développeur Full Stack spécialisé en TypeScript/Next.js et juriste de formation en droit du numérique basé à Paris.
             </p>
             <p>
-              J&apos;explore l&apos;intersection entre le droit, la technologie
-              et le design. À travers des projets web innovants, je cherche à
-              créer des solutions qui allient esthétique, fonctionnalité et
-              conformité juridique.
+            Je transforme des besoins métier complexes en solutions web sécurisées
+            et conformes. Ma double compétence me permet d&apos;anticiper les implications
+            juridiques dès la conception tout en architecturant des solutions techniques
+            performantes, où rigueur du code et respect des contraintes légales
+            ne font qu&apos;un.
             </p>
             <p>
-              Passionné par le développement moderne avec Next.js, TypeScript et
-              React, je conçois des applications performantes, accessibles et
-              évolutives.
+            Mon projet principal : une application médicale de recommandation
+            contraceptive (TypeScript/Next.js/Prisma) développée avec des
+            professionnels de santé, intégrant un algorithme complexe
+            d&apos;évaluation de contre-indications et une gestion stricte des données
+            sensibles.
             </p>
           </div>
 
           {/* Bio en anglais */}
           <div className="mb-12 space-y-4">
             <p>
-              Full stack developer and digital law
-              specialist based in Paris.
+            Full Stack Developer specializing in TypeScript/Next.js with a 
+            background in digital law, based in Paris.
             </p>
             <p>
-              My work explores the intersection between law, technology, and
-              design. Through innovative web projects, I seek to create
-              solutions that combine aesthetics, functionality, and legal
-              compliance.
+            I transform complex business requirements into secure and compliant 
+            web solutions. My dual expertise enables me to anticipate legal 
+            implications from the design phase while architecting high-performance 
+            technical solutions, where code rigor and regulatory compliance 
+            seamlessly merge.
             </p>
             <p>
-              Passionate about modern development with Next.js, TypeScript, and
-              React, I design performant, accessible, and scalable
-              applications.
+            Current focus: a medical contraception recommendation app 
+            (TypeScript/Next.js/Prisma) developed in collaboration with healthcare 
+            professionals from Nancy University Hospital, featuring a complex 
+            contraindication assessment algorithm and rigorous handling of 
+            sensitive health data.
             </p>
           </div>
 
@@ -101,10 +106,9 @@ export function AboutContent() {
               Stack Technique / Tech Stack
             </h2>
             <ul className="space-y-1">
+            <li>TypeScript / JavaScript</li>
               <li>Next.js / React</li>
-              <li>TypeScript / JavaScript</li>
-              <li>Tailwind CSS</li>
-              <li>Node.js</li>
+              <li>Node.js, Express</li>
               <li>Git / GitHub</li>
               <li>GSAP / Three.js</li>
               <li>Prisma / PostgreSQL</li>
@@ -118,8 +122,8 @@ export function AboutContent() {
             </h2>
             <ul className="space-y-1">
               <li>Master 2 Cyberjustice</li>
-              <li>Maitrise de droit pénal</li>
-              <li>Maitrise de droit du numérique</li>
+              <li>Maîtrise de droit pénal</li>
+              <li>Maîtrise de droit du numérique</li>
               <li>Titre RNCP niveau 6 - Développement Web Full Stack</li>
             </ul>
           </div>
