@@ -35,7 +35,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
 
           {/* Reste des infos en bas */}
           <div className="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-            <p className="text-sm text-gray-300 mb-3">{project.description}</p>
+            <p className="text-sm text-white font-bold mb-3">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-2">
               {project.tags.map((tag) => (
                 <span
